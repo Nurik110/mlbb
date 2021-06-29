@@ -1,0 +1,24 @@
+git clone ССЫЛКА_ПРОЕКТА_ХИТХАБА .
+
+
+ЧТОБЫ ЗАГРУЗИТЬ ОБНОВЛЕНИЯ НА ГИТХАБ
+
+1.  git add .
+2.  git commit -m '123'
+3.  git push -u origin main
+
+
+ЧТОБЫ ПОЛУЧИТЬ ОБНОВЛЕНИЯ С ХИТХАБА
+
+git pull
+
+
+
+
+// Enable CORS
+            config.EnableCors();
+            var json = config.Formatters.JsonFormatter;
+            json.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
+Install-Package Microsoft.AspNet.WebApi.Cors
+[EnableCors(origins: "*", headers: "*", methods: "*")]
